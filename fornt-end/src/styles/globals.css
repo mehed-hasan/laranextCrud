@@ -1,0 +1,43 @@
+.taskname {
+  position: relative;
+
+}
+
+.taskname:hover sup {
+  display: inline-flex;
+
+}
+
+.taskname sup {
+  display: none;
+  position: absolute;
+  top: 15px;
+  right: 50px;
+
+}
+
+.taskname p {
+  padding: 2px;
+  margin-bottom: 0px !important;
+}
+
+.swal2-title {
+  font-size: 16px !important;
+}
+
+.swal2-icon {
+  margin: 5px auto !important;
+}
+
+.swal2-popup {
+  padding: 5px !important;
+}
+
+/* .swal2-icon {
+  height: 40px !important;
+  width: 40px !important;
+} */
+
+.swal2-icon .swal2-icon-content {
+  font-size: 22px !important;
+}
